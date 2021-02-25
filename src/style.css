@@ -1,0 +1,29 @@
+.navlink {
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  color: rgb(128, 118, 118);
+}
+
+.link {
+  margin-right: 20px;
+  list-style-type: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.footer {
+  bottom: -100;
+  display: flex;
+  justify-content: center;
+}
