@@ -1,18 +1,17 @@
 const Navbar = () => {
+  const navigation = document.createElement('div');
+  navigation.classList.add('navbar');
+  const navul = document.createElement('ul');
+  navul.classList.add('navlink');
+  navul.innerHTML = `
+  <li class="link menu-tabs"=#home">Home</li>
+  <li class="link menu-tabs"="#about">About</li>
+  <li class="link menu-tabs"="#menu">Menu</li>
+  <li class="link menu-tabs"=#contact">Contact</li>
+  `
 
-  const navdiv = document.createElement('div')
-  navdiv.classList.add('navbar');
-  navdiv.id = 'navbar';
-  const navlinkul = document.createElement('ul');
-  navlinkul.classList.add('navlink');
+  navigation.appendChild(navul);
+  document.body.appendChild(navigation)
+}
 
-  navlinkul.innerHTML = `
-<li class="link" data-tab-target="#home">Home</li>
-<li class="link" data-tab-target="#about">About</li>
-<li class="link" data-tab-target="#menu">Menu</li>
-<li class="link" data-tab-target="#contact">Contact</li>`;
-  navdiv.appendChild(navlinkul);
-  document.body.appendChild(navdiv);
-};
-
-export default Navbar;
+export default Navbar
