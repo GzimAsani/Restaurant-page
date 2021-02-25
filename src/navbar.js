@@ -1,6 +1,6 @@
 const Navbar = () => {
 
-  const navdiv = document.getElementById('content')
+  const navdiv = document.createElement('div')
   navdiv.classList.add('navbar');
   navdiv.id = 'navbar';
   const navlinkul = document.createElement('ul');

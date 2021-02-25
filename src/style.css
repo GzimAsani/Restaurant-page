@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+body,
+ul {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
 .navlink {
   display: flex;
   justify-content: center;
@@ -5,7 +15,16 @@
   color: rgb(128, 118, 118);
 }
 
+.navbar {
+  z-index: 100;
+  position: fixed;
+  background-color: rgb(246, 255, 254);
+  width: 100%;
+}
+
 .link {
+  position: sticky;
+  padding: 10px;
   margin-right: 20px;
   list-style-type: none;
   cursor: pointer;
@@ -22,8 +41,41 @@
   height: 20px;
 }
 
+.picture {
+  position: relative;
+  display: flex;
+  margin-top:
+}
+
+.fixed {
+  position: absolute;
+  left: 35%;
+  top: 10%;
+  color: rgb(247, 202, 202)
+}
+
+.button {
+  position: absolute;
+  top: 15%;
+  left: 60%;
+  padding: 11px;
+  background-color: rgb(247, 202, 202);
+  color: rgb(128, 118, 118);
+  border-style: none;
+}
+
+.button:hover {
+  border-style: solid;
+}
+
+.homepic {
+  width: 50%;
+  height: 30em;
+}
+
 .footer {
   bottom: -100;
   display: flex;
   justify-content: center;
+  margin-top: 200px;
 }

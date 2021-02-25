@@ -12,7 +12,6 @@ const Footer = () => {
   `
   footerDIv.appendChild(navLink)
   document.body.appendChild(footerDIv)
-
 }
 
 export default Footer;
