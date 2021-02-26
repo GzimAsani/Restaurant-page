@@ -1,4 +1,4 @@
-import menu from './pictures/menu.jpg'
+import menu from './pictures/menu.jpg';
 
 const Menu = () => {
   const inermenu = document.createElement('div');
@@ -8,7 +8,7 @@ const Menu = () => {
   <img class="" src="${menu}">
   `;
 
-  document.body.appendChild(inermenu)
+  document.body.appendChild(inermenu);
 };
 
 export default Menu;

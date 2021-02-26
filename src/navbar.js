@@ -9,10 +9,10 @@ const Navbar = () => {
   <li class="link" data-tab-target="#about">About</li>
   <li class="link" data-tab-target="#menu">Menu</li>
   <li class="link" data-tab-target="#contact">Contact</li>
-  `
+  `;
 
   navigation.appendChild(navul);
-  document.body.appendChild(navigation)
-}
+  document.body.appendChild(navigation);
+};
 
-export default Navbar
+export default Navbar;
