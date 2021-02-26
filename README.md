@@ -1,6 +1,6 @@
 # Restaurant-page
 
-This project project is part of Microverse learning and here I created dynamic restaurant website. This projet was created only with javascript and it does not need any kind of browser to render the pages.
+This project is part of Microverse learning and here I created dynamic restaurant website and it was created only with javascript and it does not need any kind of browser to render the pages.
 
 ![img](./readme.png)
 
