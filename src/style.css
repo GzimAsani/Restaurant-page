@@ -51,7 +51,7 @@ ul {
   position: absolute;
   left: 35%;
   top: 15%;
-  color: rgb(247, 202, 202)
+  color: rgb(247, 202, 202);
 }
 
 .button {
@@ -74,7 +74,6 @@ ul {
 }
 
 .footer {
-  bottom: -100;
   display: flex;
   justify-content: center;
 }
@@ -106,4 +105,3 @@ ul {
   display: flex;
   padding-top: 30px;
 }
-
