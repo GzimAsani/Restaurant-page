@@ -3,13 +3,27 @@ import Navbar from './navbar'
 import Footer from './footer';
 import Home from './homepage';
 import Menu from './menu';
-
+import Contact from './contact';
 
 const initialize = () => {
   Navbar();
   Home();
-  Footer();
   Menu();
+  Contact();
+  Footer();
 };
 
 initialize();
+
+const tabs = document.querySelectorAll('[data-tab-target]');
+const tabcontent = document.querySelectorAll('.show');
+
+tabs.forEach((tab) => {
+  tab.addEventListener('click', () => {
+    const target = document.querySelector(tab.dataset.tabTarget);
+    tabcontent.forEach((content) => {
+      content.classList.remove('active');
+    });
+    target.classList.add('active');
+  });
+});

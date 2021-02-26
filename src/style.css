@@ -18,7 +18,7 @@ ul {
 .navbar {
   z-index: 100;
   position: fixed;
-  background-color: rgb(246, 255, 254);
+  background-color: rgb(234, 253, 251);
   width: 100%;
   justify-content: center;
 }
@@ -81,5 +81,29 @@ ul {
 
 .show {
   display: none;
+}
+
+.active {
+  display: flex;
+}
+
+.menu {
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.contact-pic {
+  display: flex;
+  width: 80%;
+  height: 22em;
+}
+
+.contact-info {
+  margin-left: 250px;
+}
+
+.mar {
+  display: flex;
+  padding-top: 30px;
 }
 

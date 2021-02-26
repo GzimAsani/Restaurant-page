@@ -3,7 +3,8 @@ import rest from './pictures/rest.jpg'
 const Home = () => {
 
   const mainHome = document.createElement('div')
-  mainHome.classList.add('picture')
+  mainHome.classList.add('picture', 'show', 'active')
+  mainHome.id = 'home';
   mainHome.innerHTML = `
   <h1 class="fixed"> RESTAURANT 4 STINET </h1>
   <img class="homepic" src="${stinet}">

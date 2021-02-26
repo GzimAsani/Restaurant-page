@@ -1,12 +1,13 @@
-
+import menu from './pictures/menu.jpg'
 
 const Menu = () => {
-  const inermenu = document.createElement('div')
-  inermenu.classList.add('menu')
-  inermenu.classList.add('show')
+  const inermenu = document.createElement('div');
+  inermenu.classList.add('menu', 'show');
+  inermenu.id = 'menu';
   inermenu.innerHTML = `
-  <h1>Gzimm</h1>
-  `
+  <img class="" src="${menu}">
+  `;
+
   document.body.appendChild(inermenu)
 };
 
