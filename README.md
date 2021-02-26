@@ -20,8 +20,7 @@ This project project is part of Microverse learning and here I created dynamic r
 1. - [ ] Open the `Terminal`
 2. - [ ] Navigate to the directory where you want to add this repository
 3. - [ ] Run `git clone git@github.com:GzimAsani/Restaurant-page.git` or with HTTP`git clone https://github.com/GzimAsani/Restaurant-page.git` 
-4. - [ ] 
-5. - [ ] Run `npm install` to install the necessary modules
+4. - [ ] Run `npm install` to install the necessary modules
 
 ## Author
 
