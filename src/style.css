@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+body,
+ul {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Akaya Telivigala', cursive;
+}
+
+.navlink {
+  display: flex;
+  justify-content: center;
+  font-weight: 800;
+  color: rgb(128, 118, 118);
+}
+
+.navbar {
+  z-index: 100;
+  position: fixed;
+  background-color: rgb(234, 253, 251);
+  width: 100%;
+  justify-content: center;
+}
+
+.link {
+  position: sticky;
+  padding: 10px;
+  margin-right: 20px;
+  list-style-type: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.picture {
+  position: relative;
+  display: flex;
+}
+
+.fixed {
+  position: absolute;
+  left: 35%;
+  top: 15%;
+  color: rgb(247, 202, 202);
+}
+
+.button {
+  position: absolute;
+  top: 15%;
+  left: 65%;
+  padding: 11px;
+  background-color: rgb(247, 202, 202);
+  color: rgb(128, 118, 118);
+  border-style: none;
+}
+
+.button:hover {
+  border-style: solid;
+}
+
+.homepic {
+  width: 50%;
+  height: 30em;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.show {
+  display: none;
+}
+
+.active {
+  display: flex;
+}
+
+.menu {
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.contact-pic {
+  display: flex;
+  width: 80%;
+  height: 22em;
+}
+
+.contact-info {
+  margin-left: 250px;
+}
+
+.mar {
+  display: flex;
+  padding-top: 30px;
+}
